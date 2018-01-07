@@ -1,3 +1,5 @@
 *~
-*.swp
-/frontend/nbproject/private/
+*.txt
+*.lock
+.gitignore
+vendor/
