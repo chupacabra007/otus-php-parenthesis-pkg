@@ -9,8 +9,8 @@ class MainTask extends Task
     {
     	  if (isset($data[1]) && !empty($data[1]))
     	  {
-    	      $checker = new Checker($data[1]);
-    	      $success = $checker->check();
+    	      $checker = new Checker();
+    	      $success = $checker->check($data[1]);
     	      
     	      if ($success) 
     	      {
