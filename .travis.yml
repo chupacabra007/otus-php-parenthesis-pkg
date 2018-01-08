@@ -6,4 +6,6 @@ before_install:
     - composer install
     - chmod +x install-phalcon.sh
     - ./install-phalcon.sh
+script: phpunit -c ./tests
+    
 
