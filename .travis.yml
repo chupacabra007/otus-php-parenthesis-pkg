@@ -6,4 +6,5 @@ php:
 sudo: false
 before_install:
     - composer install
+    - ./src/Framework/vendor/bin/install-phalcon.sh
 
