@@ -10,8 +10,6 @@ class UnitTest extends TestCase
     
     public function tearDown() { }
     
-    public function tearDownAfterClass() { }
-    
     public function testTestCase()
     {
         $this->assertEquals(
