@@ -4,6 +4,7 @@
     },
     "name": "chupacabra007/parenthesis",
     "description": "Small PHP console package used to check whether parentheses are balanced or not",
+    "version": "1.0.3",
     "license": "MIT",
     "keywords": ["chupacabra007","parenthesis"],
     "authors": [{
