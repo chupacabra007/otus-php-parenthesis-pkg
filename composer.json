@@ -3,7 +3,7 @@
         "vendor-dir": "src/vendor"  
     },
     "name": "chupacabra007/parenthesis",
-    "description": "Small PHP console package used to check whether parentheses are balanced or not",
+    "description": "Small PHP package used to check whether parentheses are balanced or not",
     "license": "MIT",
     "keywords": ["chupacabra007","parenthesis"],
     "authors": [{
