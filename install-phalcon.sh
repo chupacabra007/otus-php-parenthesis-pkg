@@ -11,7 +11,7 @@ if [ "${CI}" != "true" ]; then
 fi
 
 
-CI_APP_DIR=${PWD}/src/Framework
+CI_APP_DIR=${PWD}/src
 PHALCON_INSTALL_REF=${1:-master}
 PHALCON_DIR=${HOME}/cphalcon
 PHALCON_CACHE_DIR=${PHALCON_DIR}/cache

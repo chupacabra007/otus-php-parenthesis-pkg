@@ -1,6 +1,4 @@
 language: php
-services:
-    - docker
 php:
     - 7.0
 sudo: false
@@ -8,6 +6,6 @@ before_install:
     - composer install
     - chmod +x install-phalcon.sh
     - ./install-phalcon.sh
-script: ./src/Framework/vendor/bin/phpunit -c ./tests
+script: ./src/vendor/bin/phpunit -c ./tests
     
 

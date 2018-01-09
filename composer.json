@@ -1,6 +1,6 @@
 {
     "config": {
-        "vendor-dir": "src/Framework/vendor"  
+        "vendor-dir": "src/vendor"  
     },
     "name": "chupacabra007/parenthesis",
     "description": "Small PHP console package used to check whether parentheses are balanced or not",
@@ -18,7 +18,7 @@
     },
     "autoload":{
         "psr-4": {
-            "chupacabra\\parenthesis\\": "src"        
+            "chupacabra007\\parenthesis\\": "src"        
         } 
     }
 }
