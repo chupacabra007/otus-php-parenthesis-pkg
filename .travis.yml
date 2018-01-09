@@ -4,8 +4,6 @@ php:
 sudo: false
 before_install:
     - composer install
-    - chmod +x install-phalcon.sh
-    - ./install-phalcon.sh
 script: ./src/vendor/bin/phpunit -c ./tests
     
 
